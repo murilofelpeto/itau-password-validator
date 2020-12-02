@@ -7,9 +7,9 @@ import java.util.Date;
 @Getter
 public class PasswordErrorResponse {
 
-    private Date timestamp;
-    private Boolean isValid;
-    private String message;
+    private final Date timestamp;
+    private final Boolean isValid;
+    private final String message;
 
     public PasswordErrorResponse(final Date timestamp, final Boolean isValid, final String message) {
         this.timestamp = timestamp;

@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 @Order(4)
 public class PasswordDigitValidator extends PasswordValidator {
 
-    private static final String INVALID_DIGIT = "Your password must contain at leats one digit";
+    private static final String INVALID_DIGIT = "Your password must contain at least one digit";
 
     @Override
     public PasswordResponse checkPassword(final String password) {

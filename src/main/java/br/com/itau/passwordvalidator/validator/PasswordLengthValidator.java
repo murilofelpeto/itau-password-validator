@@ -3,7 +3,6 @@ package br.com.itau.passwordvalidator.validator;
 import br.com.itau.passwordvalidator.dto.response.PasswordResponse;
 import br.com.itau.passwordvalidator.exception.InvalidPasswordException;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.context.annotation.DependsOn;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
